@@ -1,0 +1,43 @@
+.floatLeft {
+  float: right;
+}
+
+.paddingCustom {
+  padding: 5px;
+}
+
+.heightCustom {
+  height: 50px;
+
+}
+
+.widthCustom {
+  width: 50px;
+}
+
+.overideMat {
+  opacity: 1 !important; 
+  pointer-events: all !important;
+  position : relative !important;
+}
+
+input[type=checkbox]:checked + label.strikethrough{
+  text-decoration: line-through;
+}
+
+.checkboxfit {
+  height: 20px;
+  width: 20px;
+}
+
+.customfont {
+  font-size: 20px;
+}
+
+.iconpadding {
+  padding-left: 150px !important;
+}
+
+.overideMargin {
+  margin-bottom: 0px !important;
+}
