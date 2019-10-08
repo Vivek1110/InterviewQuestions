@@ -1,0 +1,14 @@
+1. Mutable Objects are the ones that can be changed over the flow of code.
+Example: Arrays and custom objects are mutable.
+   Immutable objects are the once, whose state cannot be changed once it is assigned.
+Example: String and Number
+
+2. Pros:
+	1. Immutable objects are less complicated, since you don't need to worry about how an object may evolve over time.
+	2. Don't need to have mutiple copies of immutable objects when returning or passing to other functions, since there is no possibility an immutable object to be changed without user knowledge.
+	3. Number of copies of object is reduced, so you can cache objects or re-use the same object multiple times.
+Cons:
+	1. Cyclic data structures such as graphs are difficult to build. 
+	2. This also result in allocating more objects, rather than reusing the existing ones.
+
+3. Immutable can be achieved using spread syntax, as it does not create a new object.

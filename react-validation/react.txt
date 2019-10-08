@@ -1,0 +1,2 @@
+1. The validation of props can be done by using PropTypes.
+2. Higher order component, takes in component as input an returns a new component. It is used for reusing the component.

@@ -1,0 +1,19 @@
+1. Spread:
+	It is used in expanding the single varible into more, for example to array.
+
+Example:
+	var abc = ['a', 'b', 'c'];
+	var def = ['d', 'e', 'f'];
+	var alpha = [ ...abc, ...def ];
+	The "..." indicates spread. And the output will be ['a', 'b', 'c','d', 'e', 'f']
+
+2. Rest:
+	The rest syntax is used to collapse the multiple arguments to one array. This is used when, number of argument for a function is not pre determined.
+Example:
+	function sum( first, ...others ) {
+    		for ( var i = 0; i < others.length; i++ )
+        	first += others[i];
+    		return first;
+	}
+
+	Here "..." indicates spread. You can bass n number of arguments to the method sum.

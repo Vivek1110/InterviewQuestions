@@ -1,0 +1,9 @@
+1. Semantic HTML
+	Semantic is a way of writing and structuring the html, so that it reinfoces meaning of the content.
+2. Semantic tag clarifies, what information is inside and as well as its importance.
+Some of the semantic tags are
+1. article
+2. footer
+3. header
+4. main
+5. summary
